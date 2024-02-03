@@ -8,7 +8,7 @@ function About(props) {
             <img src={props.imgsrc || defaultImageSrc} alt="blog logo" />
             <p>{props.aboutText}</p>
         </aside>
-    )
+    );
 }
 
 export default About;

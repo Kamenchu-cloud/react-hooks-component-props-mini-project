@@ -5,7 +5,7 @@ function Header(props) {
         <header>
             <h1>{props.blogname}</h1>
         </header>
-    )
+    );
 }
 
 export default Header;
