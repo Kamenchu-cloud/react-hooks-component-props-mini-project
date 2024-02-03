@@ -5,7 +5,7 @@ function About(props) {
 
     return(
         <aside>
-            <img src={props.imgsrc || defaultImageSrc} alt="blog logo" />
+            <img src={props.ImgSrc || defaultImageSrc} alt="blog logo" />
             <p>{props.aboutText}</p>
         </aside>
     );
